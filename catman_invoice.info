@@ -1,0 +1,22 @@
+name = Catman Invoice
+description = Generate an invoice, cloned and customized version of commerce_invoice
+dependencies[] = rules
+dependencies[] = commerce_order
+package = Commerce (contrib)
+core = 7.x
+
+stylesheets[all][] = theme/catman-invoice.css
+
+; Module includes
+files[] = includes/catman_invoice.controller.inc
+
+; Views includes
+files[] = includes/views/catman_invoice.views.inc
+
+; Views handlers
+files[] = includes/views/handlers/catman_invoice_handler_field_invoice.inc
+files[] = includes/views/handlers/catman_invoice_handler_field_invoice_type.inc
+files[] = includes/views/handlers/catman_invoice_handler_filter_invoice_type.inc
+
+; tests
+files[] = tests/number_generation.test

@@ -1,0 +1,7 @@
+name = Catman Invoice Email
+description = Integrates Catman Invoice with Commerce Email (2.x) (clone of commerce_invoice_email)
+package = Commerce (contrib)
+core = 7.x
+dependencies[] = catman_invoice
+dependencies[] = commerce_email
+
