@@ -3,70 +3,39 @@
  * Catman Invoice css.
  */
 
-/*.catman-invoice-catman-invoice .catman-invoice-number,
-.catman-invoice-created {
-  display: inline-block;
-}*/
-
 .catman-invoice-header {
   float: right;
   margin-bottom: 40px;
+  width: 50%;
+  padding-left: 20px;
 }
 
+.group-header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
-/*.catman-invoice-header*/
+.group-footer {
+  padding-top: 50px;
+}
 
-.catman-invoice-header h3 {
+.entity-catman-invoice h3 {
   margin: 0;
+  font-size: 1.125em;
+  line-height: 1.2;
+  white-space: nowrap;
 }
-
-
-
-
-/*div.ds-2col-stacked div.group-header*/
-
-
 
 .catman-invoice-number  .prefix,
 .catman-invoice-created  .prefix {
   display: inline-block;
   font-weight: bold;
 }
-/*
-.catman-invoice-number div
-.catman-invoice-created div {
-  display: inline;
-}
-*/
-/*.entity-catman-invoice h3.field-label {
-  clear: both;
-
-}
-*/
-
-/*div.catman-invoice-header div div.view div.view-content div h3.field-label*/
-
-
-/*.catman-invoice-header {
-  margin-bottom: 40px;
-}*/
 
 .indent-payment {
   margin-left: 10px;
 }
-
-/*.catman-invoice-catman-invoice h3 {
-  margin-bottom: 0;
-  margin-left: 20px;
-}*/
-
-/*.group-left h3 {
-  margin-top: 132px;
-}*/
-
-/*.catman-invoice-container {
-  float: left;
-}*/
 
 p.field-billing-phone {
   margin: 0;
@@ -77,3 +46,16 @@ p.field-billing-phone {
   margin-bottom: 20px;
   margin-left: 20px;
 }
+
+.ds-2col-stacked-fluid > .group-header {
+  clear: both;
+}
+
+.catman-invoice-header {
+  padding-left: 20px;
+}
+
+.ds-2col-stacked-fluid .group-right {
+  padding-left: 40px;
+}
+
