@@ -2,8 +2,9 @@ name = Catman Invoice
 description = Generate an invoice, cloned and customized version of commerce_invoice
 dependencies[] = rules
 dependencies[] = commerce_order
-package = Commerce (contrib)
+package = Catman
 core = 7.x
+version = 7.x-1.0
 
 stylesheets[all][] = theme/catman-invoice.css
 
