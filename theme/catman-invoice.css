@@ -30,6 +30,16 @@
 .catman-invoice-number  .prefix,
 .catman-invoice-created  .prefix {
   display: inline-block;
+  font-weight: normal;
+}
+
+/* increase font size for invoice fields */
+.catman-invoice-number {
+  font-size: large;
+}
+
+/* make invoice number bold */
+.catman-invoice-number  div:last-of-type {
   font-weight: bold;
 }
 
